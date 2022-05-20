@@ -1,0 +1,12 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Valentino
+    given-names: Santucci
+    orcid: https://orcid.org/0000-0003-1483-7998
+  - family-names: Marco
+    given-names: Baioletti
+    orcid: https://orcid.org/0000-0001-5630-7173
+title: A Fast Randomized Local Search for Low Budget Optimization in Black-Box Permutation Problems
+version: v1.0.0-cec2022
+date-released: 2022-05-20
