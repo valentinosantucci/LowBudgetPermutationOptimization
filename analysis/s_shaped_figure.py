@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 # Use Type 1 fonts in plots.
 import matplotlib
 import seaborn as sns
-matplotlib.rcParams['ps.useafm'] = True
-matplotlib.rcParams['pdf.use14corefonts'] = True
-matplotlib.rcParams['text.usetex'] = False
+#matplotlib.rcParams['ps.useafm'] = True
+#matplotlib.rcParams['pdf.use14corefonts'] = True
+#matplotlib.rcParams['text.usetex'] = False
+#plt.rcParams['pdf.fonttype'] = 42 #questa linea permette di incorporare font nel pdf
 # Do not wrap long lines
 np.set_printoptions(linewidth=np.nan)
 sns.set_style("whitegrid")
@@ -39,4 +40,6 @@ ax.plot(x,s30,label=r'$\beta=3$',dashes=(1,1))
 
 ax.legend(loc='upper right')
 
-plt.show()
+#plt.show()
+plt.tight_layout()
+plt.savefig('s_shaped_function.pdf')
